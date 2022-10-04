@@ -1,4 +1,4 @@
-# ITCS 5156: Final Project
+# ITCS 5156 Final Project: Deep Identification of Subject Age from EEG Data
 
 ## Description
 

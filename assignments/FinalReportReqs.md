@@ -1,0 +1,44 @@
+# Final Report Requirements
+
+## Criteria for Evaluation
+
+- Convention
+  - grammar, spelling, paragraphing, punctation, and capitalization
+  - 5 points
+- Cover Page
+  - project title, your name, date, and course information
+  - primary paper information (title, authors, journal, year)
+  - 5 points
+- Introduction
+  - problem statement, motivation/challenges, and summary of solution
+  - 10 points
+- Background/Related Work
+  - deep survey of the literature (at least 2 other papers)
+  - summary of approaches, strengths, and weaknesses
+  - review how they relate to your work
+  - 10 points
+- Methodology
+  - detailed description of your method/algorithms
+  - overall architecture in a diagram if possible
+  - 25 points
+- Experiments
+  - describe the setup
+  - test results of the proposed method
+  - deep analysis/discussion of the results
+  - present your journey, even if the results are weak
+  - 30 points
+- Conclusion
+  - concluding remarks
+  - thoughts on the project
+  - what you have learned
+  - challenges you faced
+  - 5 points
+- My Contributions
+  - clear explanation of what you contributed
+  - what part of your work used the existing model
+  - from where did you obtain the work
+  - what part is my own work to make everything work
+  - 5 points
+- References
+  - properly cited references section
+  - 5 points
