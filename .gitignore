@@ -1,2 +1,4 @@
-data/eval
-data/train
+recreation/data/eval
+recreation/data/train
+recreation/data/pickles
+assignments
