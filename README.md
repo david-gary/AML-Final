@@ -33,7 +33,7 @@
 | ES1D Model | | Recreation|
 | --- | --- | --- |
 | Batch Size: 150 | | Batch Size: 23 |
-| Epochs: 1,000,00 | | Epochs: 100 |
+| Epochs: 1,000,00 | | Epochs: 150 |
 | Learning Rate: 0.001 | | Learning Rate: 0.001 |
 | Optimizer: Adam | | Optimizer: Adam |
 | Loss Function: Categorical Crossentropy | | Loss Function: Categorical Crossentropy |
