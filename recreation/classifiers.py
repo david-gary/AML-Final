@@ -1,14 +1,7 @@
-# classifiers to import:
-#  - SVM-Linear
-#  - SVM-RBF
-#  - SVM-Quadratic
-#  - Naive Bayes
-
 import numpy as np
 import pandas as pd
 from sklearn import svm
 from sklearn.naive_bayes import GaussianNB
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
@@ -102,5 +95,9 @@ def classification_benchmarks(train_data, eval_data):
         # calculate the confusion matrix plot
         confusion_matrix_plots.append(
             plot_confusion_matrix(classifier, eval_data_df, eval_labels_df))
+
+        # save the confusion matrix plot
+        plt.savefig(
+            f"confusion_matrix_{classifier_names[classifiers.index(classifier)]}.png")
 
         return accuracy_scores, confusion_matrices, classification_reports, confusion_matrix_plots
