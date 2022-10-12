@@ -1,3 +1,6 @@
 recreation/data/eval
 recreation/data/train
 recreation/data/pickles
+**.DS_Store
+**.vscode
+.gitignore

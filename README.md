@@ -34,7 +34,7 @@
 | --- | --- | --- |
 | Batch Size: 150 | | Batch Size: 23 |
 | Epochs: 1,000,000 | | Epochs: 150 |
-| Learning Rate: 0.001 | | Learning Rate: 0.001 |
+| Learning Rate: Not Given | | Learning Rate: 0.001 |
 | Optimizer: Adam | | Optimizer: Adam |
 | Loss Function: Categorical Crossentropy | | Loss Function: Categorical Crossentropy |
 
@@ -46,4 +46,4 @@
 
 The general results here were not ideal, as the figure below shows.
 
-![Figure 1. Results](recreation/results.png)
+![Figure 1. Results](paper/figs/results.png)
