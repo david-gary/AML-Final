@@ -2,6 +2,34 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{mathpazo}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{cite}
+\usepackage{color}
+\usepackage{tabularx}
+
+% path for figures
+\graphicspath{{figs/}}
+
+% Set colors for links
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+% Set colors for code
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+
+
 
 \begin{document}
 
@@ -32,8 +60,8 @@
 	
 	\HRule\\[1.5cm]
 	
-  \textit\\ based on the 2017 study by Arnau-Gonzalez et al.\\[0.5cm]
-	\textsc{\Large ES1D: A deep network for EEG-based subject identification}\cite{mininet}\\[0.5cm]
+  \textit\\ based on the 2017 study by Arnau-Gonzalez et al. presented at the IEEE International Conference on Bioinformatics and Bioengineering\\[0.5cm]
+	\Large ES1D: A deep network for EEG-based subject identification\cite{ES1D}\\[0.5cm]
 
 	\vfill\vfill\vfill
 	
