@@ -1,12 +1,47 @@
-\documentclass[letterpaper,twocolumn,10pt]{article}
-%\usepackage{authblk}
-
-\title{ITCS 5156: Final Project\\Deep Identification of Subject Age from EEG Data}
-\author{David Gary}
+\documentclass[letterpaper,twocolumn,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
 
 \begin{document}
 
-\maketitle
+\begin{titlepage}
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+	
+	\center
+
+	\HRule\\[0.4cm]
+	
+	{\huge\bfseries Deep Identification of Subject Age\\ from EEG Data}\\[0.4cm]
+
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft}
+			\large
+			\textit{Author}\\
+			David Gary
+		\end{flushleft}
+	\end{minipage}
+	~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright}
+			\large
+			\textit{Course}\\
+			ITCS 5156
+		\end{flushright}
+	\end{minipage}
+	
+	\HRule\\[1.5cm]
+	
+  \textit\\ based on the 2017 study by Arnau-Gonzalez et al.\\[0.5cm]
+	\textsc{\Large ES1D: A deep network for EEG-based subject identification}\cite{mininet}\\[0.5cm]
+
+	\vfill\vfill\vfill
+	
+	{\large\today} 
+	
+	\vfill
+	
+\end{titlepage}
 
 \input{content}
 
@@ -15,5 +50,8 @@
   \bibliographystyle{acm}
   \bibliography{biblio}
 }
+
+\end{document}
+
 
 \end{document}
