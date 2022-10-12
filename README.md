@@ -42,7 +42,7 @@
 
 | ES1D Model | | Recreation|
 | --- | --- | --- |
-| Accuracy: 9401 | | Accuracy: 0.2493 |
+| Accuracy: 0.9401 | | Accuracy: 0.2493 |
 
 The general results here were not ideal, as the figure below shows.
 
