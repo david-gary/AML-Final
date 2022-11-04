@@ -4,3 +4,4 @@ recreation/data/pickles
 **.DS_Store
 **.vscode
 .gitignore
+**.csv
